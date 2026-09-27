@@ -1,0 +1,9 @@
+{
+  "version": "187.0.0",
+  "release": "Decision World / Coverage / Specialist Architecture",
+  "live_trading_enabled": false,
+  "real_data_claim": false,
+  "empirical_performance_claim": false,
+  "tests": "See release verification",
+  "notes": "Structural architecture upgrade; provider credentials and broad fundamental/news datasets remain external dependencies."
+}

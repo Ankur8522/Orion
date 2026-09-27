@@ -1,0 +1,42 @@
+{
+  "api_smoke": "PASS",
+  "baseline": "v175.0.0",
+  "compileall": "PASS",
+  "implemented": [
+    "historical_universe_registry",
+    "restart_safe_forecast_resolution_boundary",
+    "advanced_learning_segmentation_and_drift",
+    "portfolio_stress_and_correlation_clusters",
+    "release_security_audit",
+    "api_surfaces"
+  ],
+  "known_blockers": [
+    "authorized_provider_credentials",
+    "authoritative_historical_universe_membership_corpus",
+    "real_market_observation_corpus"
+  ],
+  "live_trading_enabled": false,
+  "notes": "All external-data-dependent capabilities remain explicitly blocked; no market facts or empirical outcomes were fabricated.",
+  "provider_credentials_required_for_real_data": true,
+  "release": "v176.0.0",
+  "release_audit": {
+    "forbidden_patterns": [],
+    "generated_files": [
+      "orion/__pycache__/__init__.cpython-313.pyc",
+      "orion/ops/__pycache__/__init__.cpython-313.pyc",
+      "orion/ops/__pycache__/release_audit.cpython-313.pyc"
+    ],
+    "live_trade_markers": [],
+    "passed": true,
+    "source_files": 202,
+    "test_files": 55,
+    "version": "v176"
+  },
+  "stale_runtime_refs": [],
+  "synthetic_market_data": false,
+  "tests": {
+    "count": 227,
+    "status": "PASS"
+  },
+  "type": "code_completable_closure_sweep"
+}

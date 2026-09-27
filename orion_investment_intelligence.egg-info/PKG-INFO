@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: orion-investment-intelligence
+Version: 190.0.0
+Summary: ORION institutional investment intelligence runtime
+Requires-Python: >=3.11

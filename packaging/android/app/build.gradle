@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.orion.app'; compileSdk 35
+    defaultConfig { applicationId 'com.orion.app'; minSdk 26; targetSdk 35; versionCode 190; versionName '190.0.0' }
+}

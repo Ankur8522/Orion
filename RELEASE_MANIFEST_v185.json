@@ -1,0 +1,32 @@
+{
+  "product": "ORION",
+  "version": "185.0.0",
+  "release": "PIT Technical/Fundamental Feature Bridge & Walk-Forward Calibration",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "external_provider_credentials_embedded": false,
+  "notes": "Code-completable brain upgrade. Real provider observations and resolved outcomes remain required for empirical production calibration and performance claims.",
+  "changed_modules": [
+    "orion/decision/technical_features.py",
+    "orion/decision/fundamental_features.py",
+    "orion/decision/trade_intelligence.py",
+    "orion/learning/calibration.py",
+    "orion/learning/trade_walkforward.py"
+  ],
+  "tests_added": [
+    "tests/test_trade_feature_engines.py",
+    "tests/test_calibration_and_raw_bridge.py",
+    "tests/test_trade_walkforward.py"
+  ],
+  "verification": {
+    "full_pytest": "PASS",
+    "compileall": "PASS",
+    "pit_training_guard": "PASS",
+    "technical_feature_pit_guard": "PASS",
+    "walk_forward_guard": "PASS",
+    "calibration_guard": "PASS",
+    "live_trading": "OFF",
+    "pytest_tests": 519,
+    "clean_extraction_tests": 519
+  }
+}

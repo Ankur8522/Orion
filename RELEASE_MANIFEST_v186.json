@@ -1,0 +1,25 @@
+{
+  "version": "186.0.0",
+  "release": "Institutional Data/Brain Architecture Boundary",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "real_data_connected": false,
+  "implemented": [
+    "dataset_domain_catalog",
+    "pit_world_snapshot",
+    "zerodha_readonly_boundary",
+    "specialist_ensemble_boundary"
+  ],
+  "known_blockers": [
+    "provider_credentials",
+    "fundamental_provider",
+    "estimates_provider",
+    "news_evidence_provider",
+    "real_historical_outcomes",
+    "empirical_model_calibration"
+  ],
+  "tests": {
+    "expected": 261,
+    "status": "PASS"
+  }
+}

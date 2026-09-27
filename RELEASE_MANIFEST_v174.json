@@ -1,0 +1,18 @@
+{
+  "release": "v174.0.0",
+  "baseline": "v173.0.0",
+  "upgrade": "Governed point-in-time instrument mapping registry and acquisition readiness engine",
+  "tests_passed": 218,
+  "tests_failed": 0,
+  "compileall": "PASS",
+  "api_smoke": "PASS",
+  "api_smoke_endpoints": ["/api/acquisition/readiness", "/api/acquisition/mappings"],
+  "mapping_pit_validation": "PASS",
+  "missing_mapping_safety": "PASS",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "provider_credentials_verified": false,
+  "production_data_ready": false,
+  "blockers": ["No verified provider credentials/instrument mapping corpus is present in this runtime"],
+  "next_target": "Connect governed historical membership/instrument mappings to the persistent acquisition scheduler and freshness ledger."
+}

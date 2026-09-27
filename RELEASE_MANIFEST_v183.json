@@ -1,0 +1,20 @@
+{
+  "product": "ORION",
+  "version": "183.0.0",
+  "release": "Unified PIT Temporal & Historical Universe Provenance",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "external_provider_credentials_embedded": false,
+  "notes": "Code-completable P1/P2 hardening only; real provider observations remain external-data dependent.",
+  "changed_modules": [
+    "orion/data/temporal.py",
+    "orion/data/providers.py",
+    "orion/data/pit.py",
+    "orion/data/corporate_actions.py",
+    "orion/data/historical_universe.py"
+  ],
+  "tests_added": [
+    "tests/test_v183_temporal_pit.py",
+    "tests/test_v183_historical_universe_provenance.py"
+  ]
+}

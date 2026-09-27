@@ -1,0 +1,21 @@
+{
+  "version": "188.0.0",
+  "title": "ORION Institutional Intelligence Kernel",
+  "base_version": "187.0.0",
+  "verified": true,
+  "tests_collected": 294,
+  "live_trading_enabled": false,
+  "real_data_claim": false,
+  "features": [
+    "15 specialist domains",
+    "chronological OOS specialist training",
+    "learned meta-intelligence",
+    "canonical PIT-aware data fabric",
+    "DecisionWorld dataset and feature lineage",
+    "institutional UI visual layer"
+  ],
+  "blockers": [
+    "external provider credentials/data",
+    "insufficient observed outcomes for empirical claims"
+  ]
+}

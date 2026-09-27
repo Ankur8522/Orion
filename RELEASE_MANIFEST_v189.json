@@ -1,0 +1,20 @@
+{
+  "version": "189.0.0",
+  "title": "ORION Governed Intelligence Pipeline + Empirical Distribution Kernel",
+  "base_version": "188.0.0",
+  "verified": true,
+  "tests_collected": 298,
+  "live_trading_enabled": false,
+  "real_data_claim": false,
+  "features": [
+    "DecisionWorld-governed trained specialist inference",
+    "PIT restatement-aware selected observation",
+    "empirical forecast distribution kernel",
+    "content-addressed model artifact persistence",
+    "fail-closed evidence and inference states"
+  ],
+  "blockers": [
+    "external provider credentials/data",
+    "insufficient observed outcomes for empirical claims"
+  ]
+}

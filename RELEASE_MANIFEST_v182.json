@@ -1,0 +1,9 @@
+{
+  "release":"v182.0.0",
+  "baseline":"v181.0.0",
+  "type":"provider_dataset_readiness_hardening",
+  "implemented":["explicit_provider_dataset_status","historical_provider_staleness_check","no_success_observation_state","unsupported_dataset_state","provider_future_timestamp_guard"],
+  "live_trading_enabled":false,
+  "synthetic_market_data":false,
+  "provider_credentials_required_for_real_data":true
+}

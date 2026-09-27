@@ -1,0 +1,11 @@
+services:
+  orion:
+    build: .
+    environment:
+      ORION_PROVIDER_MODE: public
+      ORION_STATE_DIR: /app/runtime/state
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./runtime:/app/runtime
+    restart: unless-stopped

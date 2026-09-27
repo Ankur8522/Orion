@@ -1,0 +1,24 @@
+{
+  "product": "ORION",
+  "version": "184.0.0",
+  "release": "Trade Intelligence Brain — Fundamental Technical Historical Fusion",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "external_provider_credentials_embedded": false,
+  "notes": "Code-completable trade-intelligence foundation only. Real provider observations and resolved outcomes are required for production calibration and empirical claims.",
+  "changed_modules": [
+    "orion/decision/trade_intelligence.py",
+    "orion/research/historical_patterns.py"
+  ],
+  "tests_added": [
+    "tests/test_trade_intelligence.py",
+    "tests/test_historical_patterns.py"
+  ],
+  "verification": {
+    "full_pytest": "PASS",
+    "compileall": "PASS",
+    "pit_training_guard": "PASS",
+    "historical_pattern_guard": "PASS",
+    "live_trading": "OFF"
+  }
+}

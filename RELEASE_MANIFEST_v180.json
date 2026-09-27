@@ -1,0 +1,9 @@
+{
+  "release":"v180.0.0",
+  "baseline":"v179.0.0",
+  "type":"portfolio_decision_and_paper_ledger_closure",
+  "implemented":["portfolio_pre_paper_decision_gate","cash_and_fee_ledger","persistent_fill_ledger","release_identity_v180"],
+  "live_trading_enabled":false,
+  "synthetic_market_data":false,
+  "provider_credentials_required_for_real_data":true
+}

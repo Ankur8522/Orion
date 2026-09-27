@@ -1,0 +1,21 @@
+{
+  "release": "v175.0.0",
+  "baseline": "v174.0.0",
+  "product": "ORION",
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "tests_passed": 220,
+  "files_changed": [
+    "orion/acquisition/operational_readiness.py",
+    "orion/app/gateway.py",
+    "orion/app/server.py",
+    "orion/__init__.py",
+    "pyproject.toml",
+    "orion/ui/index.html",
+    "tests/test_v175_operational_readiness.py",
+    "tests/test_v160_max_hardening.py",
+    "tests/test_v168_release_and_provider.py",
+    "RELEASE_NOTES_v175.md"
+  ],
+  "file_count": 235
+}

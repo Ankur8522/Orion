@@ -1,0 +1,27 @@
+{
+  "version": "190.0.0",
+  "title": "ORION Governed Runtime & Outcome Learning Hardening",
+  "base_version": "189.0.0",
+  "verified": true,
+  "live_trading_enabled": false,
+  "real_data_claim": false,
+  "features": [
+    "DecisionWorld feature immutability",
+    "cycle-level governed intelligence inference",
+    "empirical outcome path metrics",
+    "persistent model lifecycle governance",
+    "native Android shell source",
+    "native macOS shell source"
+  ],
+  "external_blockers": [
+    "provider credentials/data",
+    "historical PIT corpus and verified outcomes",
+    "Android SDK/build tools for APK/AAB compilation",
+    "macOS/Xcode for app compilation/signing"
+  ],
+  "tests_collected": 316,
+  "clean_extraction_verified": true,
+  "compileall_verified": true,
+  "secret_scan_clean": true,
+  "live_order_surface_found": false
+}

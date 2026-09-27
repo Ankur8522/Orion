@@ -1,0 +1,9 @@
+{
+  "release": "v179.0.0",
+  "baseline": "v178.0.0",
+  "type": "code_completable_integrity_closure",
+  "implemented": ["deterministic_provider_precedence", "pit_reconciliation_filter", "financial_source_precedence", "replay_input_config_lineage", "evidence_contradiction_adjudication", "release_identity_v179"],
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "provider_credentials_required_for_real_data": true
+}

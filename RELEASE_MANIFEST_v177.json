@@ -1,0 +1,23 @@
+{
+  "release": "v177.0.0",
+  "baseline": "v176.0.0",
+  "type": "code_completable_forecast_execution_closure",
+  "implemented": [
+    "bounded_probabilistic_forecast_engine",
+    "forecast_uncertainty_and_lineage",
+    "realistic_paper_execution_cost_engine",
+    "empirical_validation_evaluation_time_fix",
+    "forecast_and_paper_cost_api_surfaces",
+    "release_identity_v177"
+  ],
+  "live_trading_enabled": false,
+  "synthetic_market_data": false,
+  "provider_credentials_required_for_real_data": true,
+  "known_external_blockers": [
+    "authorized_provider_credentials",
+    "authoritative_historical_universe_membership_corpus",
+    "real_market_observation_corpus",
+    "real_fundamental_corporate_action_and_evidence_corpus"
+  ],
+  "notes": "All new computation is evidence/input bound. Forecast probabilities are model outputs, not empirically proven accuracy claims; paper costs use explicit caller-supplied assumptions."
+}

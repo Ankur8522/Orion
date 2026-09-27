@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orion-investment-intelligence"
+version = "190.0.0"
+description = "ORION institutional investment intelligence runtime"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["orion*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
